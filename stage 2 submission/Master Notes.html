@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<head>
+    <title>Bernardo's Notes</title>
+    <link rel="stylesheet" href="bernardo-style.css">
+</head>
+<body>
+    <h1 class="title">Introduction to Programming Nanodegree</h1>
+        <div class="TOC">
+            <h2>Table of Contents</h2>
+			<em>Make Your Webpage</em>
+            <li><a href="#lesson1-1">Lesson One</a></li>
+            <li><a href="#lesson1-2">Lesson Two</a></li>
+            <li><a href="#lesson1-3">Lesson Three</a></li>
+			<em>Automate Your Page</em>
+            <li><a href="#lesson2-1">Lesson One</a></li>
+            <li><a href="#lesson2-2">Lesson Two</a></li>
+            <li><a href="#lesson2-3">Lesson Three</a></li>
+            <li><a href="#lesson2-4">Lesson Four</a></li>
+            <li><a href="#lesson2-5">Lesson Five</a></li>
+        </div>
+    <div>
+        <h2 class="subheader" id="lesson1-1">Make Your Webpage - Lesson One</h2>
+    </div>
+        <div class="description">
+            <u>Major pieces of the web</u> <br>
+            Browsers - a program that runs on your computer to display files found on the web<br>
+            The internet - the world's largest computer network<br>
+            HTTP - protocol to connect browser to server<br>
+            Servers - computers the host the files that make up the internet<br>
+         </div>
+<br>
+        <div class="description">
+            <u>HTML Markup</u><br>
+            Consists of Tags and Content.<br>
+            Tags tell the computer to how display the contents, together this is called an <em>Element</em>.<br>
+            Format is &lt;name&gt; contents &lt;/name&gt; or &lt;opening tag&gt; contents &lt;closing tags&gt;
+        </div>
+<br>
+        <div class="description">
+            <span><u>Examples of tags</u></span><br>
+            The &lt;b&gt; tag <b> makes content bold </b><br>
+            The &lt;em&gt; tag <em> makes content italicised </em>
+            <br>
+            The anchor tag, &lt;a&gt;,  make links in a webpage. Ex: <span class="code">&lt;a href="www.udacity.com"&gt;Udacity&lt;/a&gt;</span> <br>
+            where href is an attribute and www.udacity.com is the value. <a href="www.udacity.com">Udacity</a>,
+<br>
+            The image tag format is as follows:<br>
+            &lt;img src="url" alt="text"&gt;<br>
+            where <b>url</b> is where the image is downloaded from and the <b>alt</b>, or alternate, is the text that is displayed when the image fails to load.<br>
+            Image tags have no closing tag because it has no content. These are also called <b>void tag</b>.
+        </div>
+<br>
+        <div class="description">
+            <span><u>Whitespace tags</u></span><br>
+            The &lt;br&gt; tag creates a line break, which moves text after the tag to a new line.
+            The &lt;p&gt; tag renders content in one paragraph. Since it has content, it requires a closing tag, while the &lt;br&gt; tag is a void tag.<br>
+            HTML code does not need to follow the action of the whitespace tags<br>
+            Inline vs Block - the br tag is an inline element, simply text.<br>
+            The &lt;p&gt; tag is a block element, an invisible block is created around the content of this tag<br>
+            <span><u>Span and Div elements</u><br>
+            Simply contain their content but have the ability to edit how the content is laid out with CSS<br>
+            Span is inline while div is block. Both require closing tags.</span>
+        </div>
+        <div>
+            <h2 class="subheader" id="lesson1-2">Make Your Webpage - Lesson Two</h2>
+            </div>
+            <div class="description">
+            <b>A webpage is like a house - rooms are partitioned in a given manner, they each serve a purpose and can have its own unique style.</b> <br>
+            HTML - <em>defines the parameters of the page</em> <br>
+            CSS - <em>provides styling options</em><br>
+            Javascript - <em>creates interactivity</em><br>
+        </div>
+<br>
+        <div class="description">
+            <b>Document Object Model</b>, or DOM, is the tree like structure that HTML block elements form.<br>
+            HTML tags create elements that the DOM uses to display the page.<br>
+            Webpages are constructed with boxes to simplify structure and organization.
+        </div>
+        <div>
+            <h2 class="subheader" id="lesson11-3">Make Your Webpage - Lesson Three</h2>
+        </div>
+        <div class="description">
+            Cascading Style Sheet (CSS)<br>
+            - Code that controls the style or appearance<br>
+            - Can be applied to all element types in an html document or by selecting specific classes<br>
+            - This avoids repetition of coding<br>   
+        </div>
+<br>
+        <div class="description">
+            There are three ways to include CSS in a webpage:<br>
+            1. Write CSS in the <em>head</em> of html<br>
+            2. Link HTML to a separate CSS file<br>
+            3. Write style inline with HTML<br>
+        </div>
+        <div>
+            <h2 class="subheader" id="lesson2-1">Automate Your Page - Lesson One</h2>
+        </div>
+        <div class="description">
+            <p>A computer program is set of specific instructions that tell a computer what to do. Programming languages avoid ambiguity that exists in natural language and are not verbose. Python is a programming language named after the show, Monty Python. Python uses an interpreter to execute Python code. The interpreter converts the code written into a format the computer can understand.</p>
+		</div>
+        <div>
+            <h2 class="subheader" id="lesson2-2">Automate Your Page - Lesson Two</h2>
+        </div>
+		<div class="description">
+            Strings are characters enclosed in quotes. They can be single or double as long as it is the same at the beginning and end of the characters.<br>
+            Variables hold any information desired. This can be strings, numbers, formulas, etc.<br>
+            Variables are assigned their content with the equals sign.<br>
+            As an example, we can assign variable "x" with the value of 5 as follows: <span class="code">x = 5</span>.<br>
+            The "=" serves a dual role depending on the intended behaviour. As we've seen for variable assignment, but it is used to calculate a function in an arithmetic equation, such as <span class="code">2 + 2 = 4</span>.<br>
+            The plus sign also serves another role. It concatenates multiple strings together. <span class="code">"2"+"2"</span> would result in "22". Or <span class="code">"I "+"went "+"to "+"the "+"store."</span> would result in "I went to the store."<br>
+            Variables are useful to make code less complex and improves readability for others. 
+        </div>
+        <div>
+            <h2 class="subheader" id="lesson2-3">Automate Your Page - Lesson Three</h2>
+        </div>
+		<div class="description">
+            Python functions are a set of instructions for the computer to execute. Functions take inputs, perform a procedure, then yield or return an output.<br>
+            Functions are created with the word <span class="code">def:</span> followed by the code of what the function does on a new line. It is important to indent four spaces on the new line. Python uses white space to section off code into readable blocks.<br>
+            As an example, let's write a function to cube a number.<br>
+            <span class="code">def cube(q):<br>
+            <span class="indent">number = q * q * q</span><br>
+            <span class="indent">return number</span></span><br>
+            By itself, the function above would not provide a result. A user needs to call the function by name.<br> 
+            Such as: <span class="code">print cube(5)</span> would output 125.<br>
+            Once a function is written, it can be reused as often as needed in a program. This is valuable in reducing the amount of code required.
+        </div>
+        <div>
+            <h2 class="subheader" id="lesson2-4">Automate Your Page - Lesson Four</h2>
+        </div>
+        <div class="description">  
+            Python's If statement checks if a condition is True or False and performs a block of code based on the resulting boolean. Like Functions and While loops, If statements are written with a colon at the end. An example If statement would be:<br>
+            <span class="code">a = 6<br>
+            if a > 5:<br>
+            <span class="indent">print "Yes"<br></span></span>
+            This if statement prints a "Yes" since 6 is greater than 5. But if we had initiated a to 4, it would not print anything. That is because we didn't qualify an Else clause. The Else is written like the If, with a colon and an indented code block in the next line.<br>
+            <span class="code">a = 4<br>
+            if a > 5:<br>
+            <span class="indent">print "Yes"<br></span>
+            else:<br>
+            <span class="indent">print "No"</span></span><br>
+            This results in a No being printed because 4 is not greater than 5. 
+        </div>
+<br>
+		<div class="description">    
+            The While loop is a block of code that will repeat itself until the initial condition is True. While loops are created as follows:
+            <br>
+            <span class="code">zapp = 0<br>
+            while zapp < 5:<br>
+            <span class="indent">print zapp</span><br>
+            <span class="indent">zapp = zapp + 1</span></span><br>
+            The output of this function would be a list of numbers from 0 to 4. Once zapp reaches 5, 5 is not less than 5, and the while loop ends. 
+        </div>
+<br>
+        <div class="description">   
+            Code bugs will naturally occur during the process of coding. So here are a few tips for debugging:<br>
+            <li>Utilize the error message</li>
+            <li>Use working code samples</li>
+            <li>Ensure the working code does work</li>
+            <li>Utilize print statements to find intermediate results</li>
+            <li>Keep old code copies for comparison with version control applications</li>
+        </div>
+        <div>
+            <h2 class="subheader" id="lesson2-5">Automate Your Page - Lesson Five</h2>
+        </div>
+        <div class="description">
+            Lists are a collection of items within one object. Lists are created with brackets and items are separated with commas. A list can have a list inside it, or nested. They can be assigned to variables.<br>
+            Here is an example of a list of cities: <span class="code">cities = ['Boston', 'Washington, DC', 'New York', 'Chicago']</span><br>
+            Lists are indexed like strings, so to extract an item, use its position, like so: <span class="code">my_city = cities[1]</span>. This would return the list item as position 1, which is 'Washington, DC'.<br>
+            Lists are also mutable, which means they can be modified after creation. This is in contrast to strings, which are immutable.<br>
+            For my list above, replacing 'New York' with 'Miami' would be as follows: <span class="code">cities[2] = 'Miami'</span>. Now <span class="code">cities = ['Boston', 'Washington, DC', 'Miami', 'Chicago']</span><br>      
+        </div>
+<br>
+        <div class="description">
+            The For loop iterates over a sequence values, such as lists or strings. Think of this as For Each value in sequence, execute this block of code. The For loop is written as follows:<br>
+            <span class="code">for <em>variable</em> in sequence:<br>
+            <span class="indent"><em>code block</em></span></span><br>
+            The way it works is that each item in the sequence is assigned to the variable and the code block is executed. This repeats until all items in the sequence have been completed. Let's write a For loop that prints out the values of a list.<br>
+            <span class="code">for x in [1, 2, 3, 4, 5]:<br>
+            <span class="indent">print x</span></span><br>
+            In this For loop, x is assigned to 1, then x is printed. Next, x is assigned to 2, then x is printed...etc.<br>
+            The result would be:<br>
+            <span class="code">1</span><br>
+            <span class="code">2</span><br>
+            <span class="code">3</span><br>
+            <span class="code">4</span><br>
+            <span class="code">5</span><br>
+        </div>    
+</body>           
+			
+            
